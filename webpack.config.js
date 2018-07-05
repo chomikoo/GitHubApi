@@ -7,6 +7,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
+  // externals: ['axios'],
+  performance: {hints: false},
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -27,7 +30,8 @@ module.exports = {
                 "sass-loader" // compiles Sass to CSS
             ]
         }
-    ]
+    ],
+
   },
 
   plugins: [

@@ -6,19 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GitHub Repositories Api</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 
 </head>
 <body>
     
         <main class="container">
         
-                <table id="repositories" class="table table-stripped table-dark table-hover">
+                <table id="repositories" class="table table-stripped table-dark table-hover text-center">
                     <thead>
-                        <th class="">ID:</th><th class="col">Name:</th><th class="col">Lang:</th><th class="col">Date:</th>
+                        <th data-sort="id">ID:</th>
+                        <th data-sort="name">Name:</th>
+                        <th data-sort="lang">Lang:</th>
+                        <th data-sort="date">Update:</th>
                     </thead>
         
-                    <tbody id="repositories-list">
-                    </tbody>
+                    <tbody id="repositories-list"></tbody>
         
                 </table>
         
