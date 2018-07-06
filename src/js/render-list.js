@@ -20,7 +20,6 @@ function leadingZero( num ){
 }
 
 function iconLang(lang) {
-    console.log(lang.toLowerCase());
     switch(lang.toLowerCase()) {
         case 'html':
             // console.log('fab fa-html5' + lang);

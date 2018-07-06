@@ -9,7 +9,7 @@ module.exports = {
   },
   // externals: ['axios'],
   performance: {hints: false},
-  devtool: 'source-map',
+  // devtool: 'source-map',
   module: {
     rules: [
       {
